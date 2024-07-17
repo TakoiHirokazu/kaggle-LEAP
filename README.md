@@ -54,7 +54,7 @@ The following notebooks include calculations such as standardization using Stand
     - fe103_data_preprocess_sum_feature.ipynb
     - fe129_data_save.ipynb
 
-- Preprocess All Data </br>
+- Preprocess LEAP/ClimSim_low-res </br>
 The following notebooks handle processes such as merging monthly data
     - fe055_data_save_8.ipynb
     - fe075_data_save_6_7.ipynb
