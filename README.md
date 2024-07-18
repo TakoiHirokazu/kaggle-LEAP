@@ -1,7 +1,7 @@
 # LEAP - Atmospheric Physics using AI (ClimSim)
+This is the takoi part of the 4th place solution for LEAP - Atmospheric Physics using AI (ClimSim).
 
 ## Data Preparation
-
 
 Go to data_preparation </r>
 

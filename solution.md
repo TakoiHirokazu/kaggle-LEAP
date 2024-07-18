@@ -160,4 +160,8 @@ class LeapRnnModel(nn.Module):
 - The ensemble results are used to replace the predictions from team member Kurupical's stacking.
 
 
+### Output
+- Prediction results, model weights, and other data are stored in the dataset below.
+https://www.kaggle.com/datasets/takoihiraokazu/takoi-leap-output
+
 
