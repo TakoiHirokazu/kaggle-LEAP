@@ -29,6 +29,7 @@
             - Applied StandardScaler to each column
 
 ## models
+- 
 - The models are based on LSTM
 - The following is the base model
     - Ultimately, multiple models were created by enlarging the base model or adding conv1d
@@ -133,6 +134,7 @@ class LeapRnnModel(nn.Module):
 - Set columns with a weight of 0 in sample_submission.csv to 0.
 
 ### Model Results
+- All the models below are trained using A100 (80GB)
 - CV is evaluated using the validation data
     - Results after post-processing
 - Some experiments do not use the entire dataset mentioned above, so the approximate size of the training data is noted
