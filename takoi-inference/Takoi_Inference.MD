@@ -16,13 +16,13 @@ docker-compose up --build
 ```
 
 ## Data
-- Download the following data to solution/storage/leap/data
+- Download the following data to solution/storage/leap/data </br>
 https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/data
 
 ## Placing Preprocessing Files
 - If the directory solution/storage/leap/output/fe does not exist, please create it.
 
-From the following dataset, place the specified folders into the designated directory:
+From the following dataset, place the specified folders into the designated directory:</br>
 https://www.kaggle.com/datasets/takoihiraokazu/takoi-leap-output
 - fe101 : solution/storage/leap/output/fe
 - fe102 : solution/storage/leap/output/fe
@@ -31,7 +31,7 @@ https://www.kaggle.com/datasets/takoihiraokazu/takoi-leap-output
 ## Placing Trained Models
 - If the directory solution/storage/leap/output/exp does not exist, please create it.
 
-From the following dataset, place the specified folders into the designated directory:
+From the following dataset, place the specified folders into the designated directory:</br>
 https://www.kaggle.com/datasets/takoihiraokazu/takoi-leap-output
 - ex124 : solution/storage/leap/output/exp
 - ex130 : solution/storage/leap/output/exp
@@ -84,7 +84,7 @@ Please run the following files in the solution directory
 - exp162_test_pp.py
 
 The prediction result file for ex124 will be:
-solution/storage/leap/output/exp/exp124/exp124_pp.parquet
+solution/storage/leap/output/exp/ex124/exp124_pp.parquet
 For other experiment numbers, replace 124 with the respective experiment number in the file name.
 
 ## Ensemble
