@@ -29,7 +29,7 @@ https://www.kaggle.com/datasets/takoihiraokazu/takoi-leap-output
 - fe103 : `./storage/leap/output/fe`
 
 ## Placing Trained Models
-- If the directory solution/storage/leap/output/exp does not exist, please create it.
+- If the directory `./storage/leap/output/exp` does not exist, please create it.
 
 From the following dataset, place the specified folders into the designated directory:</br>
 https://www.kaggle.com/datasets/takoihiraokazu/takoi-leap-output
@@ -129,7 +129,6 @@ kurupical : `./storage/leap/output/exp/ensemble0715/kurupical-leap-pred2`
 
 Please run the following file
 - exp173_team_ensemble_onlyt_test.py
-    - If you are performing inference on test data only, please run the newly shared exp173_team_ensemble_only_test.py instead of the previously shared exp173_team_ensemble_test.py. The exp173_team_ensemble_test.py script includes loading data for validation, which will cause errors if you attempt to run it for test inference only without performing validation.
     - The output file 20240715_ensemble_per_target_500.parquet will be used to overwrite the ensemble results of teammate kurupical.
 
 
