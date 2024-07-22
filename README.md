@@ -1,5 +1,7 @@
 # LEAP - Atmospheric Physics using AI (ClimSim)
-This is the takoi part of the 4th place solution for LEAP - Atmospheric Physics using AI (ClimSim).
+This is the takoi part of the 4th place solution for LEAP - Atmospheric Physics using AI (ClimSim).</br>
+
+The README includes the procedures for training, evaluation, and inference on test data. If you only want to perform inference on test data, please refer to Inference.MD.
 
 ## Data Preparation
 
