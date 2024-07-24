@@ -2,8 +2,8 @@
 This section describes the inference method for the test.csv file found at the URL below. If you want to perform inference on other data, please replace test.csv with the other data..</br>
 https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/data
 
-The trained model has been shared with the competition host (https://www.kaggle.com/jerrylin96) at the following dataset:
-https://www.kaggle.com/datasets/takoihiraokazu/takoi-leap-output
+The files necessary for inference are stored at the following URL:
+https://drive.google.com/drive/folders/1_7JO97v0s5cNWSOGiY9ttzAoCFzRrzne
 
 
 ## Folder
@@ -23,7 +23,7 @@ https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/data
 - If the directory `./storage/leap/output/fe` does not exist, please create it.
 
 From the following dataset, place the specified folders into the designated directory:</br>
-https://www.kaggle.com/datasets/takoihiraokazu/takoi-leap-output
+https://drive.google.com/drive/folders/1_7JO97v0s5cNWSOGiY9ttzAoCFzRrzne
 - fe101 : `./storage/leap/output/fe`
 - fe102 : `./storage/leap/output/fe`
 - fe103 : `./storage/leap/output/fe`
@@ -32,7 +32,7 @@ https://www.kaggle.com/datasets/takoihiraokazu/takoi-leap-output
 - If the directory `./storage/leap/output/exp` does not exist, please create it.
 
 From the following dataset, place the specified folders into the designated directory:</br>
-https://www.kaggle.com/datasets/takoihiraokazu/takoi-leap-output
+https://drive.google.com/drive/folders/1_7JO97v0s5cNWSOGiY9ttzAoCFzRrzne
 - ex124 : `./storage/leap/output/exp`
 - ex130 : `./storage/leap/output/exp`
 - ex131 : `./storage/leap/output/exp`
@@ -53,8 +53,6 @@ For the inference of the test data, the following two files are required for ex1
     - Contains targets with low prediction accuracy (R2 below 0). Used to set their prediction results to 0.
 - ex124/model/ex124.pth
     - Trained model
-
-The specified folders already contain prediction results for the test data(e.g., ex124_pp.parquet), so if you perform a new inference, please overwrite the existing prediction results.
 
 
 ## Test Data Preprocessing
